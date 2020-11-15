@@ -9,17 +9,58 @@ font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 
-header {
-    background-image: url(../images/header.jpg);
-    background-size: cover;
-    position: relative;
+body {
+    font-family: 'Montserrat', sans-serif;    
     display: flex;
-    flex-flow: row;
-    width: 100%;
-    height: 70vh;
+    flex-direction: column;    
+    background-image: linear-gradient(white, #9ba4b4);
+    height: 100%;
+}
+
+header {
+    background-color: #14274e;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
     font-family: 'Do Hyeon', sans-serif;
     color: white;
+    font-size: 52px;    
+}
+
+.hero {          
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;    
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+h2 {    
+    color: #394867;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gallery {
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+
+img {    
+    width: 300px;
+    border-radius: 10px;   
 }
