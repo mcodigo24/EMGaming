@@ -27,7 +27,7 @@ header {
 h1 {
     font-family: 'Do Hyeon', sans-serif;
     color: white;
-    font-size: 47px;    
+    font-size: 45px;    
 }
 
 .hero {          
@@ -50,6 +50,10 @@ p {
     padding-bottom: 4px;
 }
 
+ul {
+    font-size: 20px;    
+}
+
 .gallery {
     display: flex;    
     justify-content: space-around;  
@@ -63,4 +67,23 @@ p {
 img {    
     width: 300px;
     border-radius: 10px;   
+}
+
+@media screen and (max-width:480px) {
+   
+    h1 {
+        font-size: 35px;    
+    }    
+    
+    img {
+        margin-bottom: 40px;
+    }
+
+    .hero {                       
+        width: 85%; 
+    }
+
+    .gallery {            
+        width: 85%; 
+    }
 }
